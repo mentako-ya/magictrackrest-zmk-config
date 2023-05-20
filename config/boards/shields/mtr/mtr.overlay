@@ -43,7 +43,7 @@ RC(2,3) RC(2,2)         RC(1,3) RC(1,2) RC(1,1) RC(1,0)
             ;
 	};
 
-*/
+/*
 	left_encoder: encoder_left {
         compatible = "alps,ec11";
         label = "LEFT_ENCODER";
