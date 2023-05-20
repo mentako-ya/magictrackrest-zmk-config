@@ -1,0 +1,7 @@
+if SHIELD_MTR
+
+config ZMK_KEYBOARD_NAME
+    default "mtr"
+
+endif
+
