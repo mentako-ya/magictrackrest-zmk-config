@@ -38,8 +38,8 @@
         
         media_layer {
             bindings = <
-    &kp C_BRI_DEC   &kp C_BRI_INC              &kp K_VOL_UP &kp C_RW   &kp C_PP      &kp C_FF
-    &trans          &trans                     &kp K_VOL_DN &kp C_PREV &kp C_SHUFFLE &kp C_NEXT
+    &kp C_BRI_DEC   &kp C_BRI_INC              &kp C_VOL_UP &kp C_RW   &kp C_PP      &kp C_FF
+    &trans          &trans                     &kp C_VOL_DN &kp C_PREV &kp C_SHUFFLE &kp C_NEXT
             >;
         sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
