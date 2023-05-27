@@ -1,8 +1,2 @@
-/*
- * Copyright (c) 2023 mentako-ya
- *
- * SPDX-License-Identifier: MIT
- */
-
 config SHIELD_MTR
     def_bool $(shields_list_contains,mtr)
