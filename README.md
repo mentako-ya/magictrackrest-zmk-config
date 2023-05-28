@@ -117,6 +117,7 @@ https://github.com/settings/tokens に移動して、PersonalAccessTokenを作�
 * mtr-seeeduino_xiao_ble-zmk.uf2 　　　　　　　　　　　　　　　　　　　　　　　　　＜　ZMKファームウェア
 * settings_reset-seeeduino_xiao_ble-zmk.uf2　　　　＜　ファームウェアリセット用
 
+
 3. ファームウェア書き込み
 
 MagicTrackaRestをUSBケーブルでPCに接続
@@ -156,12 +157,23 @@ USBドライブに解凍した mtr-seeeduino_xiao_ble-zmk.uf2 を保存すると
 
 ![13](images/guide/guide_13.png)
 
-通常キーのキーコード（&kbで設定されるキー）についてはZMKのドキュメントを参照してください。
+上記サンプルのキーマップ変更内容は[こちら](https://github.com/taro-sj/magictrackrest-zmk-config/commit/d78b132d17b3deafa63dcc6ea460ff6c57af808f)
+
+
+### キーコード
+
+mtr.keymap の各キーコードは　”＆ｘｘ” のビヘイビア（振る舞い）　と、キーコードのセットで記述します。
+
+通常キーのキーコード（&kpのキー）についてはZMKのドキュメントを参照してください。
 
   https://zmk.dev/docs/codes
 
 その他各種機能キーについてはドキュメントの各セクションを参照してください
 
-  [Bluetoothコントロール &bt で設定 ](https://zmk.dev/docs/behaviors/bluetooth)
+  [Bluetoothコントロール &bt](https://zmk.dev/docs/behaviors/bluetooth)
 
-  [RGBコントロール &rgb_ug で設定 ](https://zmk.dev/docs/behaviors/underglow)
+  [RGBコントロール &rgb_ug](https://zmk.dev/docs/behaviors/underglow)
+  
+  [Hold-Tap　Shift等にタップ操作を追加 &mt](https://zmk.dev/docs/behaviors/hold-tap)
+
+  [Mod-Tap　レイヤー切り替えとタップ &lt](https://zmk.dev/docs/behaviors/mod-tap)
