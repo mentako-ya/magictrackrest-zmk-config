@@ -1,0 +1,195 @@
+<svg width="420.0" height="560.0" viewBox="0 0 420.0 560.0" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style>/* inherit to force styles through use tags*/
+svg path {
+    fill: inherit;
+}
+/* font and background color specifications */
+svg.keymap {
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+    font-size: 14px;
+    font-kerning: normal;
+    text-rendering: optimizeLegibility;
+    fill: #24292e;
+}
+
+/* default key styling */
+rect.key {
+    fill: #f6f8fa;
+    stroke: #c9cccf;
+    stroke-width: 1;
+}
+
+/* color accent for combo boxes */
+rect.combo {
+    fill: #cdf;
+}
+
+/* color accent for held keys */
+rect.held, rect.combo.held {
+    fill: #fdd;
+}
+
+/* color accent for ghost (optional) keys */
+rect.ghost, rect.combo.ghost {
+    fill: #ddd;
+}
+
+text {
+    text-anchor: middle;
+    dominant-baseline: middle;
+}
+
+/* styling for layer labels */
+text.label {
+    font-weight: bold;
+    text-anchor: start;
+    stroke: white;
+    stroke-width: 2;
+    paint-order: stroke;
+}
+
+/* styling for combo tap, and key hold/shifted label text */
+text.combo, text.hold, text.shifted {
+    font-size: 11px;
+}
+
+text.hold {
+    text-anchor: middle;
+    dominant-baseline: auto;
+}
+
+text.shifted {
+    text-anchor: middle;
+    dominant-baseline: hanging;
+}
+
+/* styling for hold/shifted label text in combo box */
+text.combo.hold, text.combo.shifted {
+    font-size: 8px;
+}
+
+/* lighter symbol for transparent keys */
+text.trans {
+    fill: #7b7e81;
+}
+
+/* styling for combo dendrons */
+path.combo {
+    stroke-width: 1;
+    stroke: gray;
+    fill: none;
+}
+
+/* Start Tabler Icons Cleanup */
+/* cannot use height/width with glyphs */
+.icon-tabler > path {
+    fill: inherit;
+    stroke: inherit;
+}
+/* hide tabler's default box */
+.icon-tabler > path[stroke="none"][fill="none"] {
+    visibility: collapse;
+}
+/* End Tabler Icons Cleanup */
+</style>
+<g class="layer-default_layer">
+<text x="30.0" y="28.0" class="label">default_layer:</text>
+<rect rx="6.0" ry="6.0" x="32.0" y="58.0" width="56.0" height="52.0" class="key"/>
+<text x="60.0" y="84.0" class="tap">LANG1</text>
+<text x="60.0" y="108.0" class="hold">LSHFT</text>
+<rect rx="6.0" ry="6.0" x="92.0" y="58.0" width="56.0" height="52.0" class="key"/>
+<text x="120.0" y="84.0" class="tap">LANG2</text>
+<text x="120.0" y="108.0" class="hold">LCTRL</text>
+<rect rx="6.0" ry="6.0" x="152.0" y="58.0" width="56.0" height="52.0" class="key"/>
+<text x="180.0" y="84.0" class="tap">
+<tspan x="180.0" dy="-0.6em">PG</tspan><tspan x="180.0" dy="1.2em">UP</tspan></text>
+<rect rx="6.0" ry="6.0" x="212.0" y="58.0" width="56.0" height="52.0" class="key"/>
+<text x="240.0" y="84.0" class="tap">HOME</text>
+<rect rx="6.0" ry="6.0" x="272.0" y="58.0" width="56.0" height="52.0" class="key"/>
+<text x="300.0" y="84.0" class="tap">UP</text>
+<rect rx="6.0" ry="6.0" x="332.0" y="58.0" width="56.0" height="52.0" class="key"/>
+<text x="360.0" y="84.0" class="tap">END</text>
+<rect rx="6.0" ry="6.0" x="32.0" y="114.0" width="56.0" height="52.0" class="key"/>
+<text x="60.0" y="140.0" class="tap">BSPC</text>
+<text x="60.0" y="164.0" class="hold">blu_rgb_layer</text>
+<rect rx="6.0" ry="6.0" x="92.0" y="114.0" width="56.0" height="52.0" class="key"/>
+<text x="120.0" y="140.0" class="tap">ENTER</text>
+<text x="120.0" y="164.0" class="hold">media_layer</text>
+<rect rx="6.0" ry="6.0" x="152.0" y="114.0" width="56.0" height="52.0" class="key"/>
+<text x="180.0" y="140.0" class="tap">
+<tspan x="180.0" dy="-0.6em">PG</tspan><tspan x="180.0" dy="1.2em">DN</tspan></text>
+<rect rx="6.0" ry="6.0" x="212.0" y="114.0" width="56.0" height="52.0" class="key"/>
+<text x="240.0" y="140.0" class="tap">LEFT</text>
+<rect rx="6.0" ry="6.0" x="272.0" y="114.0" width="56.0" height="52.0" class="key"/>
+<text x="300.0" y="140.0" class="tap">DOWN</text>
+<rect rx="6.0" ry="6.0" x="332.0" y="114.0" width="56.0" height="52.0" class="key"/>
+<text x="360.0" y="140.0" class="tap">RIGHT</text>
+</g>
+<g class="layer-media_layer">
+<text x="30.0" y="196.0" class="label">media_layer:</text>
+<rect rx="6.0" ry="6.0" x="32.0" y="226.0" width="56.0" height="52.0" class="key"/>
+<text x="60.0" y="252.0" class="tap">
+<tspan x="60.0" dy="-0.6em">BRI</tspan><tspan x="60.0" dy="1.2em">DEC</tspan></text>
+<rect rx="6.0" ry="6.0" x="92.0" y="226.0" width="56.0" height="52.0" class="key"/>
+<text x="120.0" y="252.0" class="tap">
+<tspan x="120.0" dy="-0.6em">BRI</tspan><tspan x="120.0" dy="1.2em">INC</tspan></text>
+<rect rx="6.0" ry="6.0" x="152.0" y="226.0" width="56.0" height="52.0" class="key"/>
+<text x="180.0" y="252.0" class="tap">
+<tspan x="180.0" dy="-0.6em">VOL</tspan><tspan x="180.0" dy="1.2em">UP</tspan></text>
+<rect rx="6.0" ry="6.0" x="212.0" y="226.0" width="56.0" height="52.0" class="key"/>
+<text x="240.0" y="252.0" class="tap">RW</text>
+<rect rx="6.0" ry="6.0" x="272.0" y="226.0" width="56.0" height="52.0" class="key"/>
+<text x="300.0" y="252.0" class="tap">PP</text>
+<rect rx="6.0" ry="6.0" x="332.0" y="226.0" width="56.0" height="52.0" class="key"/>
+<text x="360.0" y="252.0" class="tap">FF</text>
+<rect rx="6.0" ry="6.0" x="32.0" y="282.0" width="56.0" height="52.0" class="trans key"/>
+<text x="60.0" y="308.0" class="trans tap">▽</text>
+<rect rx="6.0" ry="6.0" x="92.0" y="282.0" width="56.0" height="52.0" class="held key"/>
+<rect rx="6.0" ry="6.0" x="152.0" y="282.0" width="56.0" height="52.0" class="key"/>
+<text x="180.0" y="308.0" class="tap">
+<tspan x="180.0" dy="-0.6em">VOL</tspan><tspan x="180.0" dy="1.2em">DN</tspan></text>
+<rect rx="6.0" ry="6.0" x="212.0" y="282.0" width="56.0" height="52.0" class="key"/>
+<text x="240.0" y="308.0" class="tap">PREV</text>
+<rect rx="6.0" ry="6.0" x="272.0" y="282.0" width="56.0" height="52.0" class="key"/>
+<text x="300.0" y="308.0" class="tap">SHUFFLE</text>
+<rect rx="6.0" ry="6.0" x="332.0" y="282.0" width="56.0" height="52.0" class="key"/>
+<text x="360.0" y="308.0" class="tap">NEXT</text>
+</g>
+<g class="layer-blu_rgb_layer">
+<text x="30.0" y="364.0" class="label">blu_rgb_layer:</text>
+<rect rx="6.0" ry="6.0" x="32.0" y="394.0" width="56.0" height="52.0" class="key"/>
+<text x="60.0" y="420.0" class="tap">
+<tspan x="60.0" dy="-0.6em">BT</tspan><tspan x="60.0" dy="1.2em">PRV</tspan></text>
+<rect rx="6.0" ry="6.0" x="92.0" y="394.0" width="56.0" height="52.0" class="key"/>
+<text x="120.0" y="420.0" class="tap">
+<tspan x="120.0" dy="-0.6em">BT</tspan><tspan x="120.0" dy="1.2em">NXT</tspan></text>
+<rect rx="6.0" ry="6.0" x="152.0" y="394.0" width="56.0" height="52.0" class="key"/>
+<text x="180.0" y="420.0" class="tap">
+<tspan x="180.0" dy="-0.6em">RGB</tspan><tspan x="180.0" dy="1.2em">TOG</tspan></text>
+<rect rx="6.0" ry="6.0" x="212.0" y="394.0" width="56.0" height="52.0" class="key"/>
+<text x="240.0" y="420.0" class="tap">
+<tspan x="240.0" dy="-0.6em">RGB</tspan><tspan x="240.0" dy="1.2em">HUI</tspan></text>
+<rect rx="6.0" ry="6.0" x="272.0" y="394.0" width="56.0" height="52.0" class="key"/>
+<text x="300.0" y="420.0" class="tap">
+<tspan x="300.0" dy="-0.6em">RGB</tspan><tspan x="300.0" dy="1.2em">SAI</tspan></text>
+<rect rx="6.0" ry="6.0" x="332.0" y="394.0" width="56.0" height="52.0" class="key"/>
+<text x="360.0" y="420.0" class="tap">
+<tspan x="360.0" dy="-0.6em">RGB</tspan><tspan x="360.0" dy="1.2em">BRI</tspan></text>
+<rect rx="6.0" ry="6.0" x="32.0" y="450.0" width="56.0" height="52.0" class="held key"/>
+<rect rx="6.0" ry="6.0" x="92.0" y="450.0" width="56.0" height="52.0" class="key"/>
+<text x="120.0" y="476.0" class="tap">
+<tspan x="120.0" dy="-0.6em">OUT</tspan><tspan x="120.0" dy="1.2em">TOG</tspan></text>
+<rect rx="6.0" ry="6.0" x="152.0" y="450.0" width="56.0" height="52.0" class="key"/>
+<text x="180.0" y="476.0" class="tap">
+<tspan x="180.0" dy="-0.6em">RGB</tspan><tspan x="180.0" dy="1.2em">EFF</tspan></text>
+<rect rx="6.0" ry="6.0" x="212.0" y="450.0" width="56.0" height="52.0" class="key"/>
+<text x="240.0" y="476.0" class="tap">
+<tspan x="240.0" dy="-0.6em">RGB</tspan><tspan x="240.0" dy="1.2em">HUD</tspan></text>
+<rect rx="6.0" ry="6.0" x="272.0" y="450.0" width="56.0" height="52.0" class="key"/>
+<text x="300.0" y="476.0" class="tap">
+<tspan x="300.0" dy="-0.6em">RGB</tspan><tspan x="300.0" dy="1.2em">SAD</tspan></text>
+<rect rx="6.0" ry="6.0" x="332.0" y="450.0" width="56.0" height="52.0" class="key"/>
+<text x="360.0" y="476.0" class="tap">
+<tspan x="360.0" dy="-0.6em">RGB</tspan><tspan x="360.0" dy="1.2em">BRD</tspan></text>
+</g>
+</svg>
