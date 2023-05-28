@@ -30,7 +30,7 @@
 // | SW10          | SW9           |          | SW4   | SW3   | SW2   | SW1  |
 // | SW12          | SW11          |          | SW8   | SW7   | SW6   | SW5  |
             bindings = <
-    &mt LSHFT LANG1 &mt LCTRL LANG2            &kp PG_UP &kp HOME &kp UP   &kp END
+    &mt LSHFT LANG2 &mt LCTRL LANG1            &kp PG_UP &kp HOME &kp UP   &kp END
     &lt BLURGB BSPC &lt MEDIA ENTER            &kp PG_DN &kp LEFT &kp DOWN &kp RIGHT
             >;
 
