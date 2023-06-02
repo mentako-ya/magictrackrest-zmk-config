@@ -191,5 +191,8 @@ path.combo {
 <rect rx="6.0" ry="6.0" x="332.0" y="450.0" width="56.0" height="52.0" class="key"/>
 <text x="360.0" y="476.0" class="tap">
 <tspan x="360.0" dy="-0.6em">RGB</tspan><tspan x="360.0" dy="1.2em">BRD</tspan></text>
+<rect rx="6.0" ry="6.0" x="76.0" y="407.0" width="28.0" height="26.0" class="combo"/>
+<text x="90.0" y="420.0" class="combo tap">
+<tspan x="90.0" dy="-0.6em">BT</tspan><tspan x="90.0" dy="1.2em">CLR</tspan></text>
 </g>
 </svg>

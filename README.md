@@ -28,7 +28,7 @@ Bluetooth,LED操作レイヤーに切り替え
 メディア操作レイヤーに切り替え
   * 下段左から２番目：メディアレイヤー
 
-#### キーマップ図 （[keymap-drawer](https://caksoylar.github.io/keymap-drawer?keymap_yaml=H4sIAAAAAAAC_22SzW6jMBSF93mKK2WbFk1GM4vskmB-NBQQkLSzQiY4BcXEjA1FUZTX6Nv0ZfokNTahiTQrPp_LPfdczBQs1_PA9SEjlHWwLwnNoSubAjC8YdoSoOWBwPlfdUgP5JQxzPMF7AnnpTBER0h9mUyBcTgz3hQspfjE2mYBZ1HTUj4b3pIZcNaJBfycwY7RtjpK_jWDpmirTOL80lsIQqBomlosDONVzm-zxx2rjB0-CHaimBtyeoXrh5zjjnAjoywzKlwejT_o79MyTOMQrR-rfKoDTIYcE4C7XPIMMETbYyqIEnS8ueIx4e_eg3DR9-Rkj1vapErphQc4Swdv6dvzGRSSYsdKLneFH7qwTiJPF0IbNqEiJ3hCCoYz8s2xdRWHa9WZ0Tblr5me-W2N_ARF6oWK5CW-LcsBpq_IQ1aiwAyetRK5ttNLN016j1XkgonWI7u-5m3gXeNFz9penyxrzPL5_iGv8VST_p7xUVxTKqWQf9JltBqChRHaKoidjWV5-iv46KWPdrfwEC6RHdsr-i96qcheQRLYIzsbd-R4-c1ynf8HCjbJnQEadtJm5o2ZeWNmTr4AzWvWZy4DAAA%3D)にて作成）
+#### キーマップ図 （[keymap-drawer](https://caksoylar.github.io/keymap-drawer?keymap_yaml=H4sIAAAAAAAC_2WS3W6CMBTH73mK8wCYTC92wZ1ICySskFLUxBiCyuayag1CFrPsNfY2e5k9yU750BrDRX_n3_PxPw2yuKimdiwAVdV7lctrDFCpz7MDk5a3SjaHI4bPFqaU1Vmn7MrXopF13ipaGOH3VTsQTZk_sWGPlAZUfLctblfj7momeDRcJT5kSc9B_EJ6vGqEeUZ_N01mbY-NbPLqbdM5MMcQJghvUw7l7r24T8BhHus5IlT06MWLQeWhH2jZKO72W7k8BI_gdA0hQ5jHEfq0gS9sSPCkdG1Y_fv5taG-nEoH6qo4nm8mW21fyt0g6UZXXwkn8x7TIKM0Gp6EkaV2drf54E1g2RytCWBLgY58F0TsdxBkYQfptAfc4Ob0wU2cCV08PAjmE0qNKMg8I0qnZuRyz9qqw0bhbzKCkwOrJxvGetiHo93NIo4sUb9bY239Aw2NTf6PAgAA)にて作成）
 
 ![default_keymap](images/default_keymap.svg)
 
@@ -174,6 +174,6 @@ mtr.keymap の各キーコードは　”＆ｘｘ” のビヘイビア（振�
 
   [RGBコントロール &rgb_ug](https://zmk.dev/docs/behaviors/underglow)
   
-  [Hold-Tap　Shift等にタップ操作を追加 &mt](https://zmk.dev/docs/behaviors/hold-tap)
+  [Hold-Tap　Shift等にタップ操作を追加 &mt](https://zmk.dev/docs/behaviors/mod-tap)
 
-  [Mod-Tap　レイヤー切り替えとタップ &lt](https://zmk.dev/docs/behaviors/mod-tap)
+  [Mod-Tap　レイヤー切り替えとタップ &lt](https://zmk.dev/docs/behaviors/hold-tap)
