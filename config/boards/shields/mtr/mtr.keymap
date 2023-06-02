@@ -27,7 +27,7 @@
         compatible = "zmk,combos";
         combo_btclr {
             timeout-ms = <50>;
-            layers = <BLURGB>
+            layers = <BLURGB>;
             key-positions = <0 1>;
             bindings = <&bt BT_CLR>;
         };
